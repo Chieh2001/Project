@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DB詳細版</title>
+
+    <style>
+        table {
+            width: 400px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">member_information</th>
+                <th scope="col">會員資料</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="color:blue; font-size: larger;">
+                <td>ID</td>
+                <td>ID</td>
+            </tr>
+            <tr>
+                <td>account</td>
+                <td>帳號</td>
+            </tr>
+            <tr>
+                <td>password</td>
+                <td>密碼</td>
+            </tr>
+            <tr>
+                <td>name</td>
+                <td>暱稱</td>
+            </tr>
+            <tr>
+                <td>gender</td>
+                <td>性別</td>
+            </tr>
+            <tr>
+                <td>birthday</td>
+                <td>生日</td>
+            </tr>
+            <tr>
+                <td>money</td>
+                <td>財產</td>
+            </tr>
+            <tr>
+                <td>registrationDate</td>
+                <td>註冊日期</td>
+            </tr>
+            <tr>
+                <td>area</td>
+                <td>區域</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">others_pages</th>
+                <th scope="col">他人頁面</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="color:blue; font-size: larger;">
+                <td>ID</td>
+                <td>ID</td>
+            </tr>
+            <tr>
+                <td>personPhoto</td>
+                <td>照片</td>
+            </tr>
+            <tr>
+                <td>selfIntroduction</td>
+                <td>自我介紹</td>
+            </tr>
+            <tr>
+                <td>article</td>
+                <td>文章</td>
+            </tr>
+            <tr>
+                <td>articleID</td>
+                <td>文章ID</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">article_page</th>
+                <th scope="col">文章頁面</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ID</td>
+                <td>作者ID</td>
+            </tr>
+            <tr style="color:blue; font-size: larger;">
+                <td>articleID</td>
+                <td>文章ID</td>
+            </tr>
+            <tr>
+                <td>articleTitle</td>
+                <td>文章標題</td>
+            </tr>
+            <tr>
+                <td>articleContent</td>
+                <td>內文</td>
+            </tr>
+            <tr>
+                <td>articleTime</td>
+                <td>發文時間</td>
+            </tr>
+            <tr>
+                <td>messageID</td>
+                <td>留言ID</td>
+            </tr>
+            <tr>
+                <td>messageContent</td>
+                <td>留言內容</td>
+            </tr>
+            <tr>
+                <td>messageTime</td>
+                <td>留言時間</td>
+            </tr>
+            <tr>
+                <td>messagePersonID</td>
+                <td>留言人ID</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">gift_shop</th>
+                <th scope="col">禮物商城</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="color:blue; font-size: larger;">
+                <td>giftID</td>
+                <td>禮物ID</td>
+            </tr>
+            <tr>
+                <td>gihrItem</td>
+                <td>禮物品項</td>
+            </tr>
+            <tr>
+                <td>giftPrice</td>
+                <td>禮物價格</td>
+            </tr>
+            <tr>
+                <td>giftPhoto</td>
+                <td>禮物照片</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">joke</th>
+                <th scope="col">笑話</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="color:blue; font-size: larger;">
+                <td>jokeID</td>
+                <td>笑話ID</td>
+            </tr>
+            <tr>
+                <td>jokeQuestion</td>
+                <td>笑話問題</td>
+            </tr>
+            <tr>
+                <td>jokeAnswer</td>
+                <td>笑話答案</td>
+            </tr>
+            <tr>
+                <td>jokeViewID</td>
+                <td>看過笑話的人</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">friend_list</th>
+                <th scope="col">好友列表</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="color:blue; font-size: larger;">
+                <td>ID</td>
+                <td>ID</td>
+            </tr>
+            <tr>
+                <td>friendID</td>
+                <td>好友ID列表</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">match</th>
+                <th scope="col">抽卡</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="color:blue; font-size: larger;">
+                <td>matchID</td>
+                <td>抽卡人ID</td>
+            </tr>
+            <tr style="color:blue; font-size: larger;">
+                <td>matchID2</td>
+                <td>被抽卡人ID</td>
+            </tr>
+            <tr>
+                <td>matchConversation</td>
+                <td>抽卡人對話</td>
+            </tr>
+            <tr>
+                <td>match2Conversation</td>
+                <td>被抽卡人對話</td>
+            </tr>
+            <tr>
+                <td>matchTime</td>
+                <td>成立時間</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">gift_grocery</th>
+                <th scope="col">禮物倉庫</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>giftID</td>
+                <td>禮物ID</td>
+            </tr>
+            <tr>
+                <td>ownerID</td>
+                <td>擁有人ID</td>
+            </tr>
+            <tr>
+                <td>donorID</td>
+                <td>贈與人ID</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">chat</th>
+                <th scope="col">聊天室</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>fromID</td>
+                <td>傳訊息人ID</td>
+            </tr>
+            <tr>
+                <td>toID</td>
+                <td>收訊息人ID</td>
+            </tr>
+            <tr>
+                <td>convesationInfo</td>
+                <td>對話內容</td>
+            </tr>
+            <tr>
+                <td>time</td>
+                <td>時間</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
